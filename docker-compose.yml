@@ -1,0 +1,10 @@
+version: "2"
+services:
+  youtube:
+    image: "youtube:1"
+    build: .
+    ports:
+      - "4545:4545"
+    environment:
+      - PORT=4545
+      
